@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #fde79f;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nav */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #d8b234;
+  color: #423301;
+}
+
+header .logo {
+  color: #423301;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header .options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: .5em;
+}
+
+header .logo i, h3 {
+  margin: .5em;
+}
+
+header .logo i {
+  font-size: 2em;
+}
+
+header .logo h3 {
+  font-size: 1.5em;
+}
+
+header .options a {
+  font-weight: 500;
+  background-color: #423301;
+  color: #d8b234;
+  padding: .75em 1.5em;
+  margin: 1.25em .5em;
+  border-radius: .5em;
+  transition: all .4s;
+}
+
+header .options a:hover {
+  background-color: #fde79f;
+  color: #423301;
+  transition: all .4s;
+}
+
+header .options a:hover > i {
+  color: #423301;
+  transition: all .4s;
+}
+
+header .options i {
+  color: #fde79f;
+  margin-right: .4em;
+}
+
+/* Footer */
+
+/* footer {
+  background-color: #423301;
+}
+
+footer h3, i {
+  color: #fde79f;
+} */
